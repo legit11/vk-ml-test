@@ -8,9 +8,6 @@ class TDocument(BaseModel):
     text: str
     first_fetch_time: Optional[int] = None
 
-    class Config:
-        allow_mutation = False
-        anystr_strip_whitespace = True
 
 class Processor:
     def process(self, documents: List[TDocument]) -> TDocument:
