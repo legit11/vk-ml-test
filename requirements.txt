@@ -1,0 +1,3 @@
+clickhouse-driver
+kafka-python
+pydantic
