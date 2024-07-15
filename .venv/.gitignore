@@ -1,0 +1,40 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+
+# Logs
+*.log
+
+# Unit test / coverage reports
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# IDEs
+.idea/
+.vscode/
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+*.lock
+
+# Environment variables
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
